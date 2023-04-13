@@ -40,7 +40,7 @@ function game2(roundsObject) {
            let combinationToLoose =  loosingCombinations.find((item) => item.includes(roundsObject[key][0]))
            score = myChoice.indexOf(combinationToLoose[1]) + 1
         } else {
-            let combinationToWin =  winCombinations.find((item) => item.includes(roundsObject[key][0]));
+            let combinationToWin = winCombinations.find((item) => item.includes(roundsObject[key][0]));
             score = 6 + myChoice.indexOf(combinationToWin[1]) + 1;
         }
 

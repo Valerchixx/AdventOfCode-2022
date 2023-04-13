@@ -24,6 +24,8 @@ function maxCalories(inputArray) {
     return maxValue;
 }
 
+//part 2
+
 function maxOfThreeElfs(inputArray) {
     let calories = 0
     const sumOfCalories = inputArray.reduce((acc, item) => {
